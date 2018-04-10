@@ -17,6 +17,10 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProductComponent} from './components/products/product/product.component';
 //services
 import {ProductService} from './services/product.service';
+import { ResgisterPageComponent } from './components/resgister-page/resgister-page.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
+import { PrivatepageComponent } from './components/privatepage/privatepage.component';
+import { NofoundPageComponent } from './components/nofound-page/nofound-page.component';
 
 
 @NgModule({
@@ -24,7 +28,11 @@ import {ProductService} from './services/product.service';
     AppComponent,
     ProductsComponent,
     ProductListComponent,
-    ProductComponent
+    ProductComponent,
+    ResgisterPageComponent,
+    LoginPageComponent,
+    PrivatepageComponent,
+    NofoundPageComponent
    
   ],
   imports: [

@@ -52,3 +52,4 @@ this.productservices.getProducts()
   }
 
 }
+}
